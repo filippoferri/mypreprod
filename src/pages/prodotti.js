@@ -1,11 +1,7 @@
 import React from "react"
-//import { Link } from "gatsby"
-
-//import { IoIosQuote } from "react-icons/io"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Video from "../components/video"
 import { Row, Col, Container, Jumbotron, Image, Tab, Nav, img } from "react-bootstrap"
 
 import Screenshot from "../images/screenshot.jpg"
@@ -30,9 +26,6 @@ import Scroll from "../images/scroll.svg"
 import Network from "../images/network.svg"
 import Shield from "../images/shield.svg"
 
-import Hero from "../videos/test.mp4"
-import SmartCopy from "../videos/utiliqo.mp4"
-//import Solutions from "../images/worldwide.svg"
 import { Link } from "gatsby"
 
 const SolutionsPage = () => (
