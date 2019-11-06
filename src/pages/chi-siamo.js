@@ -25,6 +25,7 @@ import TommasoMarchionni from "../images/team/tommaso-marchionni.jpg"
 import DarioBergamini from "../images/team/dario-bergamini.jpg"
 import AndreaDAngelo from "../images/team/andrea-d-angelo.jpg"
 import AlessandroDomeniconi from "../images/team/alessandro-domeniconi.jpg"
+import { Link } from "gatsby"
 
 
 const AboutUsPage = () => (
@@ -53,12 +54,42 @@ const AboutUsPage = () => (
       </Container>
     </section>
 
+    <section className="padding-top-huge padding-bottom-huge has-background-light">
+      <Container>
+        <Row>
+          <Col lg={{span: 5}}>
+            <h2 className="mb-4">Perché Wavecode</h2>
+            <p className="mb-4">Wavecode nasce all’interno di uno dei maggiori Tour Operator italiani, per anni leader del settore, per andare incontro alle esigenze di un controllo diretto degli strumenti di gestione.</p>
+          </Col>
+          <Col lg={{span: 6, offset: 1}}>
+            <div>
+              <h3 className="h5 mb-3">Wavecode nasce all’interno di uno dei maggiori Tour Operator italiani, per anni leader del settore, per andare incontro alle esigenze di un controllo diretto degli strumenti di gestione.</h3>
+            </div>
+            <div className="d-flex">
+              <div className="mr-3 flex-column">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the
+                industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged.
+              </div>
+              <div className="ml-3 flex-column">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the
+                industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged.
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+
     <section className="padding-bottom-huge padding-top-small">
       <Container>
         <Row className="justify-content-md-center text-center">
           <Col xs lg="6">
             <h3 className="mb-4">Conosci il nostro Team</h3>
-            <p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula, massa</p>
+            <p className="mb-5">Un grupopo di esperti</p>
           </Col>
         </Row>
         <Row>

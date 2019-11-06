@@ -28,7 +28,7 @@ const IndexPage = () => (
       <Container style={{zIndex: '2' }}>
         <h1 className="mt-5">Progettazione e sviluppo<br/> di soluzioni software in<br/> ambito turistico</h1>
         <p>
-          Dedicato a Tour Operator e agenzie di viaggio
+          Dedicato a Tour Operator e Agenzie di Viaggio
         </p>
         <Link to="/chi-siamo" className="btn btn-primary">
           Chi siamo

@@ -54,7 +54,12 @@ const SolutionsPage = () => (
           <Col xs={12} md={{ span: 8, offset: 1 }}>
             <h3 className="mb-4 mb-lg-5">Soluzioni gestionali Utiliqo</h3>
             <p className="mb-4">Il Gestionale Turismo modulare pensato e sviluppato da WAVECODE copre le esigenze gestionali di Agenzie di Viaggio, Network e Tour Operator. Il gestionale è integrabile con altri prodotti, per permetterti di automatizzare il lavoro quotidiano e risparmiare tempo nelle operazioni di tutti i giorni per poterlo dedicare ai tuoi clienti.</p>
-            <Link to={"/prodotti"} className="btn btn-primary">Per saperne di più</Link>
+            <Link to="/utiliqo-adv" className="btn btn-primary">
+              Utiliqo ADV
+            </Link>
+            <Link to="/utiliqo-to" className="btn btn-primary ml-3">
+              Utiliqo TO
+            </Link>
           </Col>
         </Row>
       </Container>

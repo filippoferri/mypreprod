@@ -29,11 +29,11 @@ import Shield from "../images/shield.svg"
 import { Link } from "gatsby"
 
 const SolutionsPage = () => (
-  <Layout pageInfo={{ pageName: "prodotti" }}>
-    <SEO title="Prodotti per tour operator e agenzie di viaggio"/>
+  <Layout pageInfo={{ pageName: "utiliqo-to" }}>
+    <SEO title="Utiliqo TO - Gestionale per Tour Operator"/>
 
     <Jumbotron fluid className="min-vh-100 min-vw-100 d-flex align-items-center has-background-half">
-      <Container style={{ marginTop: "88px" }} className="container-wide">
+      <Container style={{ marginTop: "88px" }}>
         <Row className="align-items-center">
           <Col xs={10} md="8" lg="5">
             <h1 className="is-jumbotron-title mb-4">La soluzione ideale<br/> per gli agenti di viaggio e TO</h1>
@@ -149,7 +149,48 @@ const SolutionsPage = () => (
       </Container>
     </section>
 
+    <section className="services padding-top-huge padding-bottom-huge has-background-light">
+      <Container>
+        <Row className="justify-content-md-center text-center">
+          <Col xs lg="6">
+            <h3 className="mb-4">Velocizzi il tuo lavoro<br/> con lo SmartEye</h3>
+            <p className="mb-5">Con un solo click effettui ricerche<br/> sui principali siti di prenotazione online</p>
+          </Col>
+        </Row>
+        <Row className="justify-content-md-center text-center mb-5">
+          <Col>
+            <Image src={SmartEye} alt="Smart Eye" fluid/>
+          </Col>
+        </Row>
+        <Row className="justify-content-md-center text-center">
+          <Col xs lg="10">
+            <h4 className="mb-4">Integrato con i tuoi servizi di prenotazione online.</h4>
+          </Col>
+        </Row>
+      </Container>
+    </section>
 
+    <section className="services padding-top-huge padding-bottom-huge">
+      <Container>
+        <Row className="justify-content-md-center text-center">
+          <Col xs lg="6">
+            <h3 className="mb-4">Migliori il tuo lavoro con lo SmartCopy</h3>
+            <p className="mb-4 mb-lg-5">Sviluppato per lavorare al tuo fianco, <br/>facendoti risparmiare tempo.</p>
+          </Col>
+        </Row>
+        <Row className="justify-content-md-center text-center">
+          <Col className="mb-4 mb-lg-0">
+            <Image src={Screenshot} fluid/>
+          </Col>
+        </Row>
+        <Row className="justify-content-md-center text-center">
+          <Col xs lg="10">
+            <h4 className="mb-4">Registri con un solo click le prenotazioni<br/> effettuate sui principali siti di
+              prenotazione online.</h4>
+          </Col>
+        </Row>
+      </Container>
+    </section>
 
     <section className="features padding-top-huge padding-bottom-huge has-background-light">
       <Container>

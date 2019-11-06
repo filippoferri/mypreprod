@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { Navbar, Nav, Container, img } from "react-bootstrap"
+import { Navbar, Nav, Container, NavDropdown, Image } from "react-bootstrap"
 
 import Logo from "../images/wavecode-logo.svg"
 
@@ -13,7 +13,7 @@ const MainNavbar = ({ pageInfo, siteTitle }) => {
         <Container>
           <Link to="/" className="link-no-style">
             <Navbar.Brand as="span">
-              <img
+              <Image
                 src={Logo}
                 alt={siteTitle}
               />
@@ -35,11 +35,10 @@ const MainNavbar = ({ pageInfo, siteTitle }) => {
                   Soluzioni
                 </Nav.Link>
               </Link>
-              <Link to="/prodotti" className="link-no-style">
-                <Nav.Link as="span" eventKey="prodotti">
-                  Prodotti
-                </Nav.Link>
-              </Link>
+                <NavDropdown as="span" title="Prodotti" id="basic-nav-dropdown">
+                  <NavDropdown.Item eventKey="utiliqo-to" href="/utiliqo-to">Utiliqo TO</NavDropdown.Item>
+                  <NavDropdown.Item eventKey="utiliqo-adv" href="/utiliqo-adv">Utiliqo ADV</NavDropdown.Item>
+                </NavDropdown>
               <Link to="/contattaci" className="btn btn-primary ml-lg-3 mt-4 mt-lg-0 mb-4 mb-lg-0">
                 Contattaci
               </Link>

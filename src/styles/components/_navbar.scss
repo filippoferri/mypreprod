@@ -4,3 +4,18 @@
   z-index: 1000;
   box-shadow: 0 1px 0 rgba(12, 13, 14, 0.1), 0 1px 6px rgba(59, 64, 69, 0.1);
 }
+
+.dropdown-item {
+  color: rgba(0, 0, 0, 0.5);
+
+  &.active,
+  &:active {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    background-color: transparent;
+  }
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
