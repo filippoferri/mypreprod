@@ -1,0 +1,86 @@
+body {
+  color: $p-color;
+  font-size: 1.125rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2, h3 {
+  font-size: 2.125rem;
+}
+
+a {
+  color: $primary-color;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+    color: darken($primary-color, 10%);
+  }
+}
+
+a.link-no-style {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  border-radius: 10px;
+}
+
+.btn {
+  font-size: 1.125rem;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border-color: $primary-color;
+  padding: 0.375rem 2rem;
+  border-radius: 20px;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+    border-color: darken($primary-color, 10%);
+  }
+}
+
+.btn-outline-white {
+  border-color: white;
+  color: white;
+  padding: 0.375rem 2rem;
+  border-radius: 20px;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    color: $primary-color;
+    background-color: white;
+  }
+}
+
+//
+blockquote {
+  position: relative;
+  padding-left: 3rem;
+  font-family: serif;
+  font-size: 1.3rem;
+
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  cite {
+    display: block;
+    margin-top: 1rem;
+  }
+}

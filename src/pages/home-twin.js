@@ -28,13 +28,13 @@ const IndexPage = () => (
       <Container style={{zIndex: '2' }}>
         <h1 className="mt-5">Progettazione e sviluppo<br/> di soluzioni software in<br/> ambito turistico</h1>
         <p>
-          Dedicato a Tour Operator e agenzie di viaggio
+          Dedicato a Tour Operator e agenzie
         </p>
-        <Link to="/chi-siamo" className="btn btn-primary">
-          Chi siamo
-        </Link>
-        <Link to="/soluzioni" className="btn btn-primary ml-lg-3">
+        <Link to="/" className="btn btn-primary">
           Soluzioni
+        </Link>
+        <Link to="/" className="btn btn-primary ml-lg-3">
+          Sviluppo
         </Link>
       </Container>
     </Jumbotron>
@@ -124,18 +124,12 @@ const IndexPage = () => (
             <div className="is-box is-white text-center">
               <h4>Utiliqo TO</h4>
               <p>La soluzione gestionale<br/> per Tour Operator</p>
-              <Link to="/prodotti" className="btn btn-primary mb-5">
-                Scopri Utiliqo
-              </Link>
             </div>
           </Col>
           <Col>
             <div className="is-box is-white text-center">
               <h4>Utiliqo ADV</h4>
               <p>La soluzione gestionale<br/> per agenti di viaggio</p>
-              <Link to="/prodotti" className="btn btn-primary mb-5">
-                Scopri Utiliqo
-              </Link>
             </div>
           </Col>
         </Row>
@@ -145,12 +139,12 @@ const IndexPage = () => (
       <Container>
         <Row className="align-items-center">
           <Col md={{span: 6}}>
-            <Image fluid src="https://source.unsplash.com/IuLgi9PWETU/1200x1000" alt="La nostra missione"/>
+            <Image fluid src="https://source.unsplash.com/WLUHO9A_xik/1200x1000" alt="La nostra missione"/>
           </Col>
           <Col md={{ span: 5, offset: 1 }}>
             <h3 className="mb-4">La nostra missione</h3>
             <p className="mb-4">Crediamo che il software debba essere uno strumento utile per gli utenti, che permetta di ottimizzare il proprio lavoro e di semplificare le procedure, offrendo al tempo stesso il massimo grado di libertà. Le nostre soluzioni software sono state e sono progettate insieme a chi le utilizza, sviluppate in modo da adattarsi il più possibile alle esigenze degli utenti in termini di efficienza, prestazioni e semplicità di utilizzo.</p>
-            <Link to="/chi-siamo" className="btn btn-primary">
+            <Link to="/" className="btn btn-primary">
               Chi siamo
             </Link>
           </Col>

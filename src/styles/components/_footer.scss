@@ -1,0 +1,23 @@
+.antefooter {
+  padding: 4rem 0;
+  background-color: $light-violet;
+
+  a {
+    color: $heading-color;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      text-decoration: none;
+      color: darken($heading-color, 10%);
+    }
+  }
+}
+
+footer {
+  padding: 2rem 0;
+  font-size: .8rem;
+
+  a {
+    color: $body-color;
+  }
+}
