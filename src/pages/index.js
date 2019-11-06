@@ -33,7 +33,7 @@ const IndexPage = () => (
         <Link to="/chi-siamo" className="btn btn-primary">
           Chi siamo
         </Link>
-        <Link to="/soluzioni" className="btn btn-primary ml-lg-3">
+        <Link to="/soluzioni" className="btn btn-primary ml-3">
           Soluzioni
         </Link>
       </Container>
@@ -48,18 +48,18 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row className="justify-content-md-center text-center">
-          <Col xs lg="4" className="p-5">
+          <Col xs={12} lg="4" className="p-2 p-lg-5">
             <img src={Teamwork} alt="Esperienza"/>
             <span className="box-title">Esperienza</span>
             <p>Soluzioni progettate da analisti e specialisti di settore che affiancano il cliente in ogni fase del
               progetto</p>
           </Col>
-          <Col xs lg="4" className="p-5">
+          <Col xs={12} lg="4" className="p-2 p-lg-5">
             <img src={Laptop} alt="Qualità"/>
             <span className="box-title">Qualità</span>
             <p>Tecnici e sviluppatori altamente qualifiicati, aggiornamento sulle nuove tecnologie.</p>
           </Col>
-          <Col xs lg="4" className="p-5">
+          <Col xs={12} lg="4" className="p-2 p-lg-5">
             <img src={Chat} alt="Affidabilità"/>
             <span className="box-title">Affidabilità</span>
             <p>Chiarezza e rispetto delle consegne, riservatezza e professionalità nel rapporto coi nostri clienti</p>
@@ -73,32 +73,32 @@ const IndexPage = () => (
 
       <Container>
         <Row className="justify-content-md-center text-center">
-          <Col xs lg="6">
+          <Col xs={12} lg="6">
             <h3 className="mb-4">Soluzioni per il turismo</h3>
             <p className="mb-5">Le soluzioni sono il risultato di studi, analisi e ricerche, di strumenti su misura,
               nati dall’assistenza costante con i nostri clienti</p>
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={12} lg="3" className="mb-2 mb-lg-0">
             <div className="is-box is-white text-center">
               <img src={Solutions} alt="Soluzioni Gestionali per TO e Agenzie" />
               <span className="box-title">Soluzioni Gestionali per Tour Operator e Agenzie di Viaggi</span>
             </div>
           </Col>
-          <Col>
+          <Col xs={12} lg="3" className="mb-2 mb-lg-0">
             <div className="is-box is-white text-center">
               <img src={Improving} alt="Sviluppo portali B2C e/o B2B" />
               <span className="box-title">Sviluppo portali <br/>B2C - B2B - B2B2C</span>
             </div>
           </Col>
-          <Col>
+          <Col xs={12} lg="3" className="mb-2 mb-lg-0">
             <div className="is-box is-white text-center">
               <img src={Networking} alt="Integrazioni prodotti da provider" />
               <span className="box-title">Integrazione prodotti da provider</span>
             </div>
           </Col>
-          <Col>
+          <Col xs={12} lg="3">
             <div className="is-box is-white text-center">
               <img src={Browser} alt="Distribuzione Prodotto XML" />
               <span className="box-title">Progettazione e sviluppo per distribuzione prodotto via XML</span>
@@ -120,7 +120,7 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={12} lg="6" className="mb-2 mb-lg-0">
             <div className="is-box is-white text-center">
               <h4>Utiliqo TO</h4>
               <p>La soluzione gestionale<br/> per Tour Operator</p>
@@ -129,7 +129,7 @@ const IndexPage = () => (
               </Link>
             </div>
           </Col>
-          <Col>
+          <Col xs={12} lg="6">
             <div className="is-box is-white text-center">
               <h4>Utiliqo ADV</h4>
               <p>La soluzione gestionale<br/> per agenti di viaggio</p>
@@ -144,10 +144,10 @@ const IndexPage = () => (
     <section className="padding-top-huge padding-bottom-huge">
       <Container>
         <Row className="align-items-center">
-          <Col md={{span: 6}}>
-            <Image fluid src="https://source.unsplash.com/IuLgi9PWETU/1200x1000" alt="La nostra missione"/>
+          <Col md={{span: 4}} lg={6}>
+            <Image className="mb-4 mb-lg-0" fluid src="https://source.unsplash.com/IuLgi9PWETU/1200x1000" alt="La nostra missione"/>
           </Col>
-          <Col md={{ span: 5, offset: 1 }}>
+          <Col md={8} lg={{ span: 5, offset: 1 }}>
             <h3 className="mb-4">La nostra missione</h3>
             <p className="mb-4">Crediamo che il software debba essere uno strumento utile per gli utenti, che permetta di ottimizzare il proprio lavoro e di semplificare le procedure, offrendo al tempo stesso il massimo grado di libertà. Le nostre soluzioni software sono state e sono progettate insieme a chi le utilizza, sviluppate in modo da adattarsi il più possibile alle esigenze degli utenti in termini di efficienza, prestazioni e semplicità di utilizzo.</p>
             <Link to="/chi-siamo" className="btn btn-primary">

@@ -2,6 +2,11 @@
   padding: 4rem 0;
   background-color: $light-violet;
 
+  .list-group-item {
+    background-color: transparent;
+    border: none;
+  }
+
   a {
     color: $heading-color;
     transition: all .2s ease-in-out;

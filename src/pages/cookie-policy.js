@@ -111,23 +111,24 @@ const BlogPostPage = () => (
             desideri ricevere alcun tipo di cookies sul proprio elaboratore, né da questo sito, né da altri, può
             elevare il livello di protezione privacy modificando le impostazioni di sicurezza del proprio browser:</p>
             <ul>
-              <li>Mozilla Firefox:<br/>&nbsp;<a href="https://support.mozilla.org/it/kb/Gestione%20dei%20cookie"
-                                                target="_blank" rel="noopener noreferrer" >https://support.mozilla.org/it/kb/Gestione%20dei%20cookie</a>
+              <li>Mozilla Firefox:<br/>&nbsp;
+                <a href="https://support.mozilla.org/it/kb/Gestione%20dei%20cookie"
+                                                target="_blank" rel="noopener noreferrer" >apri impostazioni Firefox</a>
               </li>
               <li>Google Chrome:<br/>&nbsp;<a href="https://support.google.com/chrome/answer/95647?hl=it"
-                                              target="_blank" rel="noopener noreferrer" >https://support.google.com/chrome/answer/95647?hl=it</a>
+                                              target="_blank" rel="noopener noreferrer" >apri impostazioni Google</a>
               </li>
               <li>Internet Explorer:<br/>&nbsp;<a
                 href="http://windows.microsoft.com/it-it/windows-vista/block-or-allow-cookies"
-                target="_blank" rel="noopener noreferrer" >http://windows.microsoft.com/it-it/windows-vista/block-or-allow-cookies</a></li>
+                target="_blank" rel="noopener noreferrer" >apri impostazioni Internet Explorer</a></li>
               <li>Safari 6/7 Mavericks:<br/>&nbsp;<a
                 href="https://support.apple.com/kb/PH17191?viewlocale=it_IT&amp;locale=it_IT"
-                target="_blank" rel="noopener noreferrer" >https://support.apple.com/kb/PH17191?viewlocale=it_IT&amp;locale=it_IT</a></li>
+                target="_blank" rel="noopener noreferrer" >apri impostazioni Safari 6/7</a></li>
               <li>Safari 8 Yosemite:<br/>&nbsp;<a
                 href="https://support.apple.com/kb/PH19214?viewlocale=it_IT&amp;locale=it_IT"
-                target="_blank" rel="noopener noreferrer" >https://support.apple.com/kb/PH19214?viewlocale=it_IT&amp;locale=it_IT</a></li>
+                target="_blank" rel="noopener noreferrer" >apri impostazioni Safari 8</a></li>
               <li>Safari su iPhone, iPad, o iPod touch:<br/>&nbsp;<a href="https://support.apple.com/it-it/HT201265"
-                                                                     target="_blank" rel="noopener noreferrer" >https://support.apple.com/it-it/HT201265</a>
+                                                                     target="_blank" rel="noopener noreferrer" >apri impostazioni Safari per mobile</a>
               </li>
             </ul>
             &nbsp;<p><b>LINK AD ALTRI SITI WEB</b><br/>Questo sito potrebbe contenere link o riferimenti per l’accesso

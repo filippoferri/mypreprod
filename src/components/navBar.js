@@ -24,7 +24,7 @@ const MainNavbar = ({ pageInfo, siteTitle }) => {
             <Nav className="mr-auto">
 
             </Nav>
-            <Nav className="ml-auto" activeKey={pageInfo && pageInfo.pageName}>
+            <Nav className="ml-auto mt-4 mt-lg-0" activeKey={pageInfo && pageInfo.pageName}>
               <Link to="/chi-siamo" className="link-no-style">
                 <Nav.Link as="span" eventKey="chi-siamo">
                   Chi siamo
@@ -40,7 +40,7 @@ const MainNavbar = ({ pageInfo, siteTitle }) => {
                   Prodotti
                 </Nav.Link>
               </Link>
-              <Link to="/contattaci" className="btn btn-primary ml-3">
+              <Link to="/contattaci" className="btn btn-primary ml-lg-3 mt-4 mt-lg-0 mb-4 mb-lg-0">
                 Contattaci
               </Link>
             </Nav>

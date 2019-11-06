@@ -46,21 +46,21 @@ const ContactUsPage = () => (
                 <Form.Label>Messaggio</Form.Label>
                 <Form.Control as="textarea" rows="5" name="message"/>
               </Form.Group>
-              <Form.Group as={Row} controlId="formHorizontalCheck">
+              <Form.Group controlId="formHorizontalCheck">
                 <Form.Check
                   label={<label>Ho letto <a href='/'>l'informativa della privacy</a>*.</label>}
                   name="privacy"
                   value="1"
                 />
               </Form.Group>
-              <Form.Group as={Row} controlId="formHorizontalCheck">
+              <Form.Group controlId="formHorizontalCheck">
                 <Form.Check
                   label="Do il consenso al trattamento dei miei dati personali per future attività di marketing."
                   name="privacy"
                   value="1"
                 />
               </Form.Group>
-              <Form.Group as={Row} controlId="formHorizontalCheck" className="mb-5">
+              <Form.Group controlId="formHorizontalCheck" className="mb-5">
                 <Form.Check
                   label="Do il consenso alla comunicazione dei miei dati personali a società terze, partner del Titolare, per future attività di marketing da parte delle stesse."
                   name="privacy"
@@ -68,10 +68,10 @@ const ContactUsPage = () => (
                 />
               </Form.Group>
 
-              <div>
+              <Form.Group className="mb-5">
                 <Image id="captcha" />
-              </div>
-              <Form.Group as={Row} className="mb-5">
+              </Form.Group>
+              <Form.Group className="mb-5">
                 <Form.Control name="captchaPhrase"/>
               </Form.Group>
 

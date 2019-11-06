@@ -35,12 +35,12 @@ const SolutionsPage = () => (
     <Jumbotron fluid className="min-vh-100 min-vw-100 d-flex align-items-center has-background-half">
       <Container style={{ marginTop: "88px" }}>
         <Row className="align-items-center">
-          <Col xs lg="5">
+          <Col xs={10} md="8" lg="5">
             <h1 className="is-jumbotron-title mb-4">La soluzione ideale<br/> per gli agenti di viaggio e TO</h1>
             <p className="size-m mb-4">Utiliqo è un gestionale<br/> progettato per velocizzare<br/> le
               tue attività.</p>
           </Col>
-          <Col xs lg="7">
+          <Col xs={12} lg="7">
             <Image src={Screenshot} alt="" fluid/>
           </Col>
         </Row>
@@ -72,17 +72,17 @@ const SolutionsPage = () => (
           </Col>
         </Row>
         <Row className="justify-content-md-center text-center">
-          <Col xs lg="3" className="p-2">
+          <Col xs={12} md="4" lg="3" className="p-2 mb-4 mb-lg-0">
             <img src={Shield} alt="Leggero e sicuro"/>
             <span className="box-title">Leggero e sicuro</span>
             <p>Elimina il peso di hardware, manutenzione e personale tecnico</p>
           </Col>
-          <Col xs lg="3" className="p-2">
+          <Col xs={12} md="4" lg="3" className="p-2 mb-4 mb-lg-0">
             <img src={Network} alt="Accessibile e flessibile"/>
             <span className="box-title">Accessibile e flessibile</span>
             <p>È accessibile da qualsisasi parte del mondo, sempre</p>
           </Col>
-          <Col xs lg="3" className="p-2">
+          <Col xs={12} md="4" lg="3" className="p-2 mb-4 mb-lg-0">
             <img src={Scroll} alt="Facile e moderno"/>
             <span className="box-title">Facile e moderno</span>
             <p>Lo sai già usare... continui a lavorare come sei abituato</p>
@@ -175,12 +175,12 @@ const SolutionsPage = () => (
         <Row className="justify-content-md-center text-center">
           <Col xs lg="6">
             <h3 className="mb-4">Migliori il tuo lavoro con lo SmartCopy</h3>
-            <p className="mb-5">Sviluppato per lavorare al tuo fianco, <br/>facendoti risparmiare tempo.</p>
+            <p className="mb-4 mb-lg-5">Sviluppato per lavorare al tuo fianco, <br/>facendoti risparmiare tempo.</p>
           </Col>
         </Row>
         <Row className="justify-content-md-center text-center">
-          <Col>
-            <Image src={Screenshot}/>
+          <Col className="mb-4 mb-lg-0">
+            <Image src={Screenshot} fluid/>
           </Col>
         </Row>
         <Row className="justify-content-md-center text-center">
@@ -195,12 +195,12 @@ const SolutionsPage = () => (
     <section className="features padding-top-huge padding-bottom-huge has-background-light">
       <Container>
         <Row className="justify-content-md-center text-center">
-          <Col xs lg="6">
+          <Col lg="6">
             <h3 className="mb-5">Soddisfi le tue esigenze professionali</h3>
           </Col>
         </Row>
         <Row>
-          <Col xs lg="3">
+          <Col xs={12} lg="3" className="mb-5 mb-lg-0">
             <div className="box-img-top">
               <div>
                 <img src={Archive} alt="Archivi di base"/>
@@ -209,7 +209,7 @@ const SolutionsPage = () => (
                   contabili.</p></div>
             </div>
           </Col>
-          <Col xs lg="3">
+          <Col xs={12} lg="3" className="mb-5 mb-lg-0">
             <div className="box-img-top">
               <div>
                 <img src={Docs} alt="Archiviazione documenti"/>
@@ -217,7 +217,7 @@ const SolutionsPage = () => (
                 <p>Puoi archiviare e consultare qualsiasi tipo di documento.</p></div>
             </div>
           </Col>
-          <Col xs lg="3">
+          <Col xs={12} lg="3" className="mb-5 mb-lg-0">
             <div className="box-img-top">
               <div>
                 <img src={Agenda} alt="Agenda"/>
@@ -225,7 +225,7 @@ const SolutionsPage = () => (
                 <p>Puoi assegnare e gestire attività, scadenze e scambio di informazioni in modo organico.</p></div>
             </div>
           </Col>
-          <Col xs lg="3">
+          <Col xs={12} lg="3">
             <div className="box-img-top">
               <div>
                 <img src={Clients} alt="Gestione clienti"/>
@@ -240,8 +240,8 @@ const SolutionsPage = () => (
     <section className="has-background-primary padding-bottom-small padding-top-small">
       <Container>
         <Row>
-          <Col><h3 className="h2 text-white">Vuoi ricevere un preventivo gratuito?</h3></Col>
-          <Col className="text-right">
+          <Col xs={12} lg={8} className="mb-4 mb-lg-0"><h3 className="h2 text-white">Vuoi ricevere un preventivo gratuito?</h3></Col>
+          <Col xs={12} lg={4} className="text-lg-right">
             <Link to="/contattaci" className="btn btn-outline-white">
               Contattaci ora
             </Link>

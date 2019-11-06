@@ -10,7 +10,11 @@
   }
 
   img {
-    padding: 0 0 1rem;
+    padding: 0;
+
+    @media (min-width: 768px) {
+      padding: 0 0 1rem;
+    }
   }
 }
 

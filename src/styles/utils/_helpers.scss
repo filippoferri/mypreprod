@@ -2,19 +2,35 @@
 // Spaces
 
 .padding-top-huge {
-  padding-top: 7rem;
+  padding-top: 2rem;
+
+  @media (min-width: 768px) {
+    padding-top: 7rem;
+  }
 }
 
 .padding-bottom-huge {
-  padding-bottom: 7rem;
+  padding-bottom: 2rem;
+
+  @media (min-width: 768px) {
+    padding-bottom: 7rem;
+  }
 }
 
 .padding-top-small {
-  padding-top: 4rem;
+  padding-top: 2rem;
+
+  @media (min-width: 768px) {
+    padding-top: 4rem;
+  }
 }
 
 .padding-bottom-small {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
+
+  @media (min-width: 768px) {
+    padding-bottom: 4rem;
+  }
 }
 
   // Colors
@@ -83,11 +99,19 @@
 //
 
 .is-h-400 {
-  height: 400px;
+  height: 300px;
   position: relative;
+
+  @media (min-width: 768px) {
+    height: 400px;
+  }
 }
 
 .is-jumbotron-title {
-  font-size: 3rem;
+  font-size: 2rem;
+
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
 }
 
