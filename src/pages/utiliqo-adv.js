@@ -46,7 +46,7 @@ const SolutionsPage = () => (
             <h1 className="is-jumbotron-title mb-4">UTILIQO ADV</h1>
             <p className="size-m mb-4">Utiliqo ADV è l'applicazione gestionale cloud-based, completa e flessibile, progettata per velocizzarele attività degli agenti di viaggio. L'interfaccia grafica e le funzionalità sono concepite per essere totalmente user-friendly e per ridurre al minimo i tempi di apprendimento.</p>
           </Col>
-          <Col xs={12} lg={{span: 6}}>
+          <Col xs={12} lg={{span: 6}} className="tect-center">
             <Image src={Hero} alt="" fluid/>
           </Col>
         </Row>
