@@ -26,13 +26,26 @@
   .nav-item {
     display: block;
     padding: 0;
+    height: 0;
     line-height: 1.6;
     color: black;
     transition: all .2s ease-in-out;
     text-align: center;
 
-    a {
+    .nav-link {
       color: $body-color;
+
+      span {
+        display: none;
+
+        @media (min-width: 768px) {
+          display: block;
+        }
+      }
+
+      &.active span {
+        display: block;
+      }
     }
 
     @media (min-width: 768px) {
@@ -51,7 +64,7 @@
     }
 
     @media (max-width: 992px) {
-      &::after {
+      .nav-link::after {
         content: "";
         display: inline-block;
         width: 15px;
@@ -61,18 +74,22 @@
         position: absolute;
         top: 2rem;
         z-index: 100;
-        transform: translateX(-50%);
+        //transform: translateX(-50%);
       }
 
-      &:nth-child(1)::after {
+      &.first .nav-link::after {
         left: calc(50% - 30px);
       }
 
-      &:nth-child(2)::after {
-        left: calc(50%);
+      &.second .nav-link::after {
+        left: calc(50% - 15px);
       }
 
-      &:nth-child(3)::after {
+      &.third .nav-link::after {
+        left: calc(50% + 15px);
+      }
+
+      &.fourth .nav-link::after {
         left: calc(50% + 30px);
       }
     }

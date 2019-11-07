@@ -124,25 +124,25 @@ const SolutionsPage = () => (
             </Col>
             <Col sm={5}>
               <Nav variant="pills" className="flex-column">
-                <Nav.Item>
+                <Nav.Item className="first">
                   <Nav.Link eventKey="first">
                     <span className="tab-title">Pratica di viaggio</span>
                     <span>Registri preventivi e pratiche di viaggio di servizi intermediati e di servizi organizzati.</span>
                   </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item className="second">
                   <Nav.Link eventKey="second">
                     <span className="tab-title">Biglietteria </span>
                     <span>Gestisci facilmente i biglietti sfruttando le integrazioni disponibili verso i principali GDS.</span>
                   </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item className="third">
                   <Nav.Link eventKey="third">
                     <span className="tab-title">Contabilità</span>
                     <span>Emetti, trasmetti e conservi le fatture elettroniche, in regime ordinario e 74ter.</span>
                   </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item className="fourth">
                   <Nav.Link eventKey="fourth">
                     <span className="tab-title">Statistiche</span>
                     <span>Generi report a supporto dell’operatività e analizzi le performance aziendali.</span>
