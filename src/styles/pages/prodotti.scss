@@ -129,9 +129,20 @@
   flex-direction: column;
   text-align: center;
 
+  .img-bg {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: $light-violet;
+  }
+
   img {
     width: 60px;
-    margin-bottom: 2rem;
     border-radius: 0;
   }
 

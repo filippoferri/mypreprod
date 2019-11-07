@@ -14,7 +14,6 @@ import Networking from "../images/networking-3.svg"
 import Browser from "../images/browser.svg"
 import World from "../images/world.svg"
 
-//import Screenshot from "../images/screenshot.png"
 import Abstract from "../images/abstract.png"
 import Hero from "../images/hero.jpg"
 
