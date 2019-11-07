@@ -38,7 +38,7 @@
       span {
         display: none;
 
-        @media (min-width: 768px) {
+        @media (min-width: 992px) {
           display: block;
         }
       }
@@ -48,7 +48,7 @@
       }
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       height: auto;
       padding: .3rem 1rem;
       position: relative;
@@ -71,11 +71,43 @@
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        background: gray;
+        background: $light-violet;
         position: absolute;
         top: 2rem;
         z-index: 100;
         //transform: translateX(-50%);
+      }
+
+      &.first {
+        margin-top: -5px;
+
+        @media (min-width: 992px) {
+          margin-top: 0;
+        }
+      }
+
+      &.second {
+        margin-top: -15px;
+
+        @media (min-width: 992px) {
+          margin-top: 0;
+        }
+      }
+
+      &.third {
+        margin-top: -20px;
+
+        @media (min-width: 992px) {
+          margin-top: 0;
+        }
+      }
+
+      &.fourth {
+        margin-top: -15px;
+
+        @media (min-width: 992px) {
+          margin-top: 0;
+        }
       }
 
       &.first .nav-link::after {
@@ -83,16 +115,20 @@
       }
 
       &.second .nav-link::after {
-        left: calc(50% - 15px);
+        left: calc(50% - 10px);
       }
 
       &.third .nav-link::after {
-        left: calc(50% + 15px);
+        left: calc(50% + 10px);
       }
 
       &.fourth .nav-link::after {
         left: calc(50% + 30px);
       }
+    }
+
+    .nav-link.active::after {
+      background-color: $primary-color;
     }
 
     .nav-link.active::before {
