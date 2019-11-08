@@ -63,7 +63,7 @@ const AboutUsPage = () => (
           </Col>
           <Col lg={{span: 6, offset: 1}}>
             <div>
-              <h3 className="h5 mb-3">Wavecode nasce all’interno di uno dei maggiori Tour Operator italiani, per anni leader del settore, per andare incontro alle esigenze di un controllo diretto degli strumenti di gestione.</h3>
+              <p className="mb-4 font-weight-bold">Wavecode si è posta come sfida la semplificazione delle numerose attività che svolgono agenti di viaggio e operatori di sistema, andando incontro alle esigenze e problematiche che ogni Agenzia di Viaggi o Tour Operator affronta e vive ogni giorno.</p>
             </div>
             <div className="d-flex">
               <div className="mr-3 flex-column">Lorem Ipsum is simply dummy text of the printing and typesetting

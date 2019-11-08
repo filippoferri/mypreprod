@@ -17,12 +17,12 @@ import Cloud from "../images/svg/cloud-computing.svg"
 import Future from "../images/svg/future.svg"
 import SmartEye from "../images/svg/smarteye.svg"
 import SmartLoader from "../images/svg/smartloader.svg"
-import Fast from "../images/svg/fast.svg"
-import SaveTime from "../images/svg/save-time.svg"
-import Manage from "../images/svg/manage.svg"
-import Config from "../images/svg/config.svg"
-import Guided from "../images/svg/guided.svg"
-import Custom from "../images/svg/custom.svg"
+import Updates from "../images/svg/updates.svg"
+import Timezone from "../images/svg/timezone.svg"
+import Multilanguage from "../images/svg/multilanguage.svg"
+import UserFriendly from "../images/svg/user-friendly.svg"
+import Increase from "../images/svg/increase.svg"
+import Speed from "../images/svg/speed.svg"
 
 const SolutionsPage = () => (
   <Layout pageInfo={{ pageName: "utiliqo-to" }}>
@@ -146,50 +146,50 @@ const SolutionsPage = () => (
         <Row>
           <Col xs lg="4">
             <div className="box-img-left">
-              <div><img src={Fast} alt="Processi operativi semplificati e velocizzati" /></div>
+              <div><img src={Updates} alt="Aggiornamenti automatici" /></div>
               <div>
                 <span>Aggiornamenti automatici</span>
-                <p>Puoi concentrarti esclusivamente sulla consulenza e sulla vendita perché tutto il resto è gestito dallo strumento.</p></div>
+                <p>Nel corso del tempo il gestionale si rinnova abbracciando sempre le ultime tecnologie.</p></div>
             </div>
           </Col>
           <Col xs lg="4">
             <div className="box-img-left">
-              <div><img src={SaveTime} alt="Risparmio consistente di costi e tempo" /></div>
+              <div><img src={Speed} alt="Velocità delle risposte" /></div>
               <div>
                 <span>Velocità delle risposte</span>
-                <p>Tutte le problematiche sistemistiche, di monitoring e di backup sono gestite dalla infrastruttura in cloud.</p></div>
+                <p>Le modifiche, anche urgenti, vengono accolte ed esaudite in tempi brevi.</p></div>
             </div>
           </Col>
           <Col xs lg="4">
             <div className="box-img-left">
-              <div><img src={Manage} alt="Gestione evoluta delle pratiche viaggio" /></div>
+              <div><img src={Increase} alt="Linea prodotti ampliabile" /></div>
               <div>
                 <span>Linea prodotti ampliabile</span>
-                <p>Puoi gestire pratiche miste con servizi in intermediazione e organizzazione sia in regime ordinario sia in regime 74 Ter.</p></div>
+                <p>Integrando qualsiasi prodotto via XML dai vari wholesalers del mondo.</p></div>
             </div>
           </Col>
           <Col xs lg="4">
             <div className="box-img-left">
-              <div><img src={Config} alt="Configurazione personale dei processi di prenotazione" /></div>
-              <div>
-                <span>Multilingua</span>
-                <p>Puoi impostare l'interfaccia che più semplifica il tuo modo di lavorare grazie ai numerosi di meotodi di personalizzazione.</p></div>
-            </div>
-          </Col>
-          <Col xs lg="4">
-            <div className="box-img-left">
-              <div><img src={Guided} alt="Prenotazione dei servizi guidata e adatabbile" /></div>
+              <div><img src={Timezone} alt="Fusi orari e Time Zone" /></div>
               <div>
                 <span>Fusi orari e Time Zone</span>
-                <p>Con pochi click si possono svolgere complicate e dispendiose operazioni di prenotazione. Le azioni ricorrenti possono essere adattate alle proprie esigenze.</p></div>
+                <p>Gestione completa dei fusi orari per la massima libertà di inserimento dati.</p></div>
             </div>
           </Col>
           <Col xs lg="4">
             <div className="box-img-left">
-              <div><img src={Custom} alt="Ambiente di lavoro personalizzato" /></div>
+              <div><img src={UserFriendly} alt="User Friendly" /></div>
               <div>
                 <span>User Friendly</span>
-                <p>L'interfaccia si adatta al proprio metodo di lavoro, mostrando o nascondendo le funzionalità che si preferisce.</p></div>
+                <p>L'interfaccia è ottimizzata per una migliore user experience.</p></div>
+            </div>
+          </Col>
+          <Col xs lg="4">
+            <div className="box-img-left">
+              <div><img src={Multilanguage} alt="Multilingua" /></div>
+              <div>
+                <span>Multilingua</span>
+                <p>L'interfaccia è localizzata nelle principali lingue mondiali.</p></div>
             </div>
           </Col>
         </Row>
@@ -203,8 +203,7 @@ const SolutionsPage = () => (
             <Image className="mb-4 mb-lg-0" fluid src="https://source.unsplash.com/5p_7M5MP2Iw/1200x1000" alt="La nostra missione"/>
           </Col>
           <Col md={8} lg={{ span: 5, offset: 1 }}>
-            <h3 className="mb-4">WHITE LABEL
-              INTEGRABILI</h3>
+            <h3 className="mb-4">White Label integrabili</h3>
             <p className="mb-4">Grazie ai nostri template custom, il Tour Operator dispone di White Label create su misura, integrabili con siti web di agenzie di viaggio o qualsiasi altro cliente.</p>
           </Col>
         </Row>
