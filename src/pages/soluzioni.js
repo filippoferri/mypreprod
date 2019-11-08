@@ -139,7 +139,7 @@ const SolutionsPage = () => (
       </Container>
     </section>
 
-    <section className="services padding-top-huge padding-bottom-huge">
+    <section className="padding-top-huge padding-bottom-huge">
       <Container>
         <Row className="justify-content-md-center text-center">
           <Col xs lg="6">
