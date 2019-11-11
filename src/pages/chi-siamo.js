@@ -1,10 +1,8 @@
 import React from "react"
-//import { Link } from "gatsby"
 import { Row, Col, Container, Jumbotron, Image } from "react-bootstrap"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-//import Hero from "../images/hero.jpg"
 import Device from "../images/device-left.png"
 
 import MarcoFilippetti from "../images/team/marco-filippetti.jpg"
@@ -25,7 +23,7 @@ import TommasoMarchionni from "../images/team/tommaso-marchionni.jpg"
 import DarioBergamini from "../images/team/dario-bergamini.jpg"
 import AndreaDAngelo from "../images/team/andrea-d-angelo.jpg"
 import AlessandroDomeniconi from "../images/team/alessandro-domeniconi.jpg"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 
 
 const AboutUsPage = () => (
@@ -60,24 +58,12 @@ const AboutUsPage = () => (
           <Col lg={{span: 5}}>
             <h2 className="mb-4">Perché Wavecode</h2>
             <p className="mb-4">Wavecode nasce all’interno di uno dei maggiori Tour Operator italiani, per anni leader del settore, per andare incontro alle esigenze di un controllo diretto degli strumenti di gestione.</p>
+            <p>Conosciamo molto bene i problemi.<br/> Wavecode viene da questo mondo che conosce perfettamente perché c’è nato e l’ha vissuto in prima persona.</p>
           </Col>
           <Col lg={{span: 6, offset: 1}}>
             <div>
-              <p className="mb-4 font-weight-bold">Wavecode si è posta come sfida la semplificazione delle numerose attività che svolgono agenti di viaggio e operatori di sistema, andando incontro alle esigenze e problematiche che ogni Agenzia di Viaggi o Tour Operator affronta e vive ogni giorno.</p>
-            </div>
-            <div className="d-flex">
-              <div className="mr-3 flex-column">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the
-                industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged.
-              </div>
-              <div className="ml-3 flex-column">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the
-                industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged.
-              </div>
+              <Image className="mb-4" src="https://source.unsplash.com/SYTO3xs06fU/1600x500" alt="title" fluid/>
+              <p className="mb-4">Wavecode si è posta come sfida la semplificazione delle numerose attività che svolgono agenti di viaggio e operatori di sistema, andando incontro alle esigenze e problematiche che ogni Agenzia di Viaggi o Tour Operator affronta e vive ogni giorno.</p>
             </div>
           </Col>
         </Row>
@@ -88,8 +74,7 @@ const AboutUsPage = () => (
       <Container>
         <Row className="justify-content-md-center text-center">
           <Col xs lg="6">
-            <h3 className="mb-4">Conosci il nostro Team</h3>
-            <p className="mb-5">Un grupopo di esperti</p>
+            <h3 className="mb-5">Conosci il nostro Team</h3>
           </Col>
         </Row>
         <Row>

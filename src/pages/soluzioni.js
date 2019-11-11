@@ -1,15 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
-//import { IoIosQuote } from "react-icons/io"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Col, Container, Jumbotron, Image } from "react-bootstrap"
-//import Hero from "../images/hero.jpg"
-//import Teamwork from "../images/teamwork.svg"
-//import Laptop from "../images/laptop.svg"
-//import Chat from "../images/chat.svg"
+
 import Integration from "../images/integrazione-prodotto.svg"
 import Utiliqo from "../images/utiliqo.svg"
 import CRM from "../images/crm.svg"
@@ -104,7 +99,7 @@ const SolutionsPage = () => (
           <Col xs={12} md={{ span: 8, offset: 1 }}>
             <h3 className="mb-4 mb-lg-5">Distribuzione prodotto XML</h3>
             <p>Sviluppiamo web service per la distribuzione dei tuoi prodotti a partner di integrazione (OLTA, aggregatori, banche letti, etc.). </p>
-            <p>I servizi che sviluppiamo seguono i principali standard di mercato, ma se hai bisogno di interfacciarti a un cliente specifico siamo pronti a sviluppare la tua soluzione ad hoc.</p>
+            <p>I servizi che sviluppiamo seguono i principali standard di mercato, ma se hai bisogno di interfacciarti ad un cliente specifico siamo pronti a sviluppare la tua soluzione ad hoc.</p>
           </Col>
         </Row>
       </Container>

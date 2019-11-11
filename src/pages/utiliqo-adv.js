@@ -35,11 +35,11 @@ import File from "../images/pratica.png"
 import Tickets from "../images/biglietteria.png"
 import Stats from "../images/statistiche.jpg"
 
-const SolutionsPage = () => (
+const UtiliqoADVPage = () => (
   <Layout pageInfo={{ pageName: "utiliqo-adv" }}>
     <SEO title="Utiliqo ADV - Gestionale per Agenzie di Viaggio"/>
 
-    <Jumbotron fluid className="min-vh-100 d-flex align-items-center has-background-half">
+    <Jumbotron fluid className="min-vh-lg-100 d-flex align-items-center has-background-half">
       <Container style={{ marginTop: "88px" }} fluid>
         <Row className="align-items-center">
           <Col xs={10} md={{span: 6}} lg={{span: 4, offset: 1}}>
@@ -55,7 +55,7 @@ const SolutionsPage = () => (
 
     <section className="padding-top-small padding-bottom-small">
       <Container className="text-center">
-        <h3>Utiliqo è integrato con i principali provider</h3>
+        <h3>Utiliqo è integrato con i principali clienti</h3>
         <div className="logo-provider-wrapper">
 
           <Image src={Edenviaggi} alt="Utiliqo si integra con Eden Viaggi"/>
@@ -145,7 +145,7 @@ const SolutionsPage = () => (
                 <Nav.Item className="fourth mb-3 mb-md-0">
                   <Nav.Link eventKey="fourth">
                     <span className="tab-title">Statistiche</span>
-                    <span>Generi report a supporto dell’operatività e analizzi le performance aziendali.</span>
+                    <span>Generi report e analizzi operatività e performance dei tuoi collaboratori.</span>
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
@@ -248,7 +248,7 @@ const SolutionsPage = () => (
         <Row className="align-items-center">
           <Col xs={{order: 2, span: 12}} md={{ span: 8, order: 1 }}>
             <h3 className="mb-4 mb-lg-5">Migliori il tuo lavoro con lo SmartCopy</h3>
-            <p>E’ un plus del nostro gestionale, è un processo automatizzato che permette di velocizzare le operazioni del banconista . L’agente di viaggio grazie allo smart copy potrà concentrarsi esclusivamente sulla consulenza e sulla vendita perché tutto il resto sarà gestito dallo strumento. Questo strumento farà risparmiare tempo e costi che pesano sull operatività del banconista.</p>
+            <p>E’ un processo automatizzato che permette di velocizzare le operazioni del banconista . L’agente di viaggio grazie allo smart copy potrà concentrarsi esclusivamente sulla consulenza e sulla vendita perché tutto il resto sarà gestito dallo strumento. Questo strumento farà risparmiare tempo e costi che pesano sull operatività del banconista.</p>
           </Col>
           <Col xs={{order: 1, span: 4}} md={{ span: 3, offset: 1, order: 2 }} className="mb-4 mb-lg-0">
             <Image src={SmartCopy} alt="Integrazioni prodotto da provider" fluid/>
@@ -318,4 +318,4 @@ const SolutionsPage = () => (
   </Layout>
 )
 
-export default SolutionsPage
+export default UtiliqoADVPage

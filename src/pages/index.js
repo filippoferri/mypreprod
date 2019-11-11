@@ -42,8 +42,8 @@ const IndexPage = () => (
         <Row className="justify-content-md-center text-center">
           <Col xs lg="6">
             <h2 className="mb-4">Cosa offriamo ai nostri clienti</h2>
-            <p>Strumenti moderni e innovativi, il perfetto compendio per le attività di Tour Operator e agenzie di
-              viaggio</p>
+            <p>Strumenti moderni e innovativi, il perfetto compendio per le attività di Tour Operator e Agenzie di
+              Viaggio</p>
           </Col>
         </Row>
         <Row className="justify-content-md-center text-center">
@@ -88,7 +88,7 @@ const IndexPage = () => (
           <Col xs={12} lg="3" className="mb-2 mb-lg-0">
             <div className="is-box is-white text-center">
               <img src={Improving} alt="Sviluppo portali B2C e/o B2B" />
-              <span className="box-title">Sviluppo portali <br/>B2C - B2B - B2B2C</span>
+              <span className="box-title">Sviluppo portali <br/>B2C - B2B - <br/>B2B2C (White Label)</span>
             </div>
           </Col>
           <Col xs={12} lg="3" className="mb-2 mb-lg-0">
@@ -123,17 +123,17 @@ const IndexPage = () => (
             <div className="is-box is-white text-center">
               <h4>Utiliqo TO</h4>
               <p>La soluzione gestionale<br/> per Tour Operator</p>
-              <Link to="/prodotti" className="btn btn-primary mb-5">
-                Scopri Utiliqo
+              <Link to="/utiliqo-to" className="btn btn-primary mb-5">
+                Scopri Utiliqo TO
               </Link>
             </div>
           </Col>
           <Col xs={12} lg="6">
             <div className="is-box is-white text-center">
               <h4>Utiliqo ADV</h4>
-              <p>La soluzione gestionale<br/> per agenti di viaggio</p>
-              <Link to="/prodotti" className="btn btn-primary mb-5">
-                Scopri Utiliqo
+              <p>La soluzione gestionale<br/> per le Agenzie di Viaggio</p>
+              <Link to="/utiliqo-adv" className="btn btn-primary mb-5">
+                Scopri Utiliqo ADV
               </Link>
             </div>
           </Col>

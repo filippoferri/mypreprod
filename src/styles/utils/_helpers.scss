@@ -38,6 +38,10 @@
   background-color: $light-violet;
 }
 
+.has-background-dark {
+  background-color: $dark-color;
+}
+
 .has-background-primary {
   background-color: $primary-color;
 }
@@ -48,7 +52,7 @@
 
 .has-background-half {
   background: rgba(255,255,255,1);
-  background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgb(125, 124, 251) 50%, rgb(125, 124, 251) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgb(125, 124, 251) 70%, rgb(125, 124, 251) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0279ac', GradientType=1 );
 
   @media(min-width: 992px) {
@@ -58,6 +62,7 @@
   }
 }
 
+//
 .is-bg-section {
   position: absolute;
   top: 0;
@@ -91,9 +96,13 @@
 
 .is-text-box {
   display: flex;
-  min-height: 400px;
   align-items: center;
-  padding: 4rem;
+  padding: 1rem;
+
+  @media (min-width: 768px) {
+    padding: 4rem;
+    min-height: 400px;
+  }
 }
 
 //

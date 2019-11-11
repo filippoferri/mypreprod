@@ -1,12 +1,11 @@
 import React from "react"
-//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../images/hero.jpg"
 import { Container, Row, Col, Jumbotron } from "react-bootstrap"
 
-const BlogPostPage = () => (
+const PrivacyPage = () => (
   <Layout pageInfo={{ pageName: "blog-post" }}>
     <SEO title="Informativa della privacy"/>
     <Jumbotron fluid className="is-h-400 d-flex align-items-center">
@@ -72,4 +71,4 @@ const BlogPostPage = () => (
   </Layout>
 )
 
-export default BlogPostPage
+export default PrivacyPage

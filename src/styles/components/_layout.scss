@@ -94,6 +94,10 @@ img {
   }
 }
 
+button:focus {
+  outline: none
+}
+
 //
 blockquote {
   position: relative;
@@ -116,5 +120,14 @@ blockquote {
 @media (min-width: 1200px) {
   .container-wide {
     width: 100%;
+  }
+}
+
+.min-vh-lg-100 {
+
+  min-height: auto;
+
+  @media (min-width: 1200px) {
+    min-height: 100vh !important;
   }
 }
