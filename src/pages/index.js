@@ -20,7 +20,7 @@ import Hero from "../images/hero.jpg"
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "index" }}>
     <SEO title="Wavecode - Soluzione per il turismo" keywords={[`gatsby`, `react`, `bootstrap`]}/>
-    <Jumbotron fluid className="min-vh-100 min-vw-100 d-flex align-items-center">
+    <Jumbotron fluid className="min-vh-100 d-flex align-items-center">
 
       <div className="is-bg-section" style={{backgroundImage: `url(${Hero})`}}></div>
 

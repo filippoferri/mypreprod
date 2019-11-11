@@ -9,16 +9,16 @@ import { Container, Row, Col, Jumbotron, Form, Button, Image } from "react-boots
 var __html = require("../modules/form-script.js")
 var template = { __html: __html }
 
-const ContactUsPage = () => (
-  <Layout pageInfo={{ pageName: "contattaci" }}>
-    <SEO title="Contattaci"/>
+const CandidatePage = () => (
+  <Layout pageInfo={{ pageName: "candidatura" }}>
+    <SEO title="Candidatura"/>
     <Jumbotron fluid className="is-h-400 d-flex align-items-center">
 
       <div className="is-bg-section"
-           style={{ backgroundImage: `url(https://source.unsplash.com/5brvJbR1Pn8/20000x1000)` }}></div>
+           style={{ backgroundImage: `url(https://source.unsplash.com/SYTO3xs06fU/20000x1000)` }}></div>
 
       <Container style={{ zIndex: "2" }}>
-        <h1 className="text-center mt-5">Contattaci</h1>
+        <h1 className="text-center mt-5 text-white">Candidatura</h1>
       </Container>
     </Jumbotron>
     <section className="padding-bottom-huge padding-top-small">
@@ -26,49 +26,51 @@ const ContactUsPage = () => (
         <Row className="justify-content-md-center">
           <Col xs lg="6">
               <p dangerouslySetInnerHTML={template}/>
-            <p>Vorresti chiedere un preventivo o prendere un appuntamento?<br/>
-              Siamo lieti di rispondere.</p>
+              <h3 className="h4 mb-4">Se desideri candidarti, compila i campi sottostanti ed allega il tuo Curriculum.</h3>
           </Col>
         </Row>
         <Row className="justify-content-md-center">
           <Col xs lg="6">
 
-            <Form id="contactus" method="post" name="contactus">
+            <Form id="candidacy" method="post" encType="multipart/form-data">
               <Form.Group controlId="formGroupName">
                 <Form.Label>Nome</Form.Label>
-                <Form.Control name="firstname"/>
+                <Form.Control name="firstname" required/>
               </Form.Group>
               <Form.Group controlId="formGroupSurname">
                 <Form.Label>Cognome</Form.Label>
-                <Form.Control name="lastname"/>
+                <Form.Control name="lastname" required/>
               </Form.Group>
               <Form.Group controlId="formGroupEmail">
                 <Form.Label>Email</Form.Label>
-                <Form.Control type="email" name="email"/>
+                <Form.Control type="email" name="email" required/>
+              </Form.Group>
+              <Form.Group controlId="formGroupPhone">
+                <Form.Label>Numero di telefono</Form.Label>
+                <Form.Control type="tel" name="phoneNumber" required/>
               </Form.Group>
               <Form.Group controlId="ControlTextarea" className="mb-5">
-                <Form.Label>Messaggio</Form.Label>
-                <Form.Control as="textarea" rows="5" name="message"/>
+                <Form.Label>Presentati</Form.Label>
+                <Form.Control as="textarea" rows="5" name="presentation"/>
+              </Form.Group>
+              <Form.Group className="mb-5">
+                <Form.Label>Allega curriculum</Form.Label>
+                <Form.Control className="btn btn-primary" type="file" id="curriculum"/>
               </Form.Group>
               <Form.Group controlId="formHorizontalCheck">
                 <Form.Check
-                  label={<label>Ho letto <a href='/'>l'informativa della privacy</a>*.</label>}
+                  label={<label>Ho letto <a href='/informativa-candidati'>l'informativa della privacy</a>*.</label>}
                   name="privacy"
                   value="1"
-                />
-              </Form.Group>
-              <Form.Group controlId="formHorizontalCheck">
-                <Form.Check
-                  label="Do il consenso al trattamento dei miei dati personali per future attività di marketing."
-                  name="privacy"
-                  value="1"
+                  required
                 />
               </Form.Group>
               <Form.Group controlId="formHorizontalCheck" className="mb-5">
                 <Form.Check
-                  label="Do il consenso alla comunicazione dei miei dati personali a società terze, partner del Titolare, per future attività di marketing da parte delle stesse."
-                  name="privacy"
+                  label=" Acconsento al trattamento di categorie particolari di dati personali da parte del Titolare del trattamento da me inseriti all’interno del mio CV."
+                  name="personaldata"
                   value="1"
+                  required
                 />
               </Form.Group>
 
@@ -97,4 +99,4 @@ const ContactUsPage = () => (
   </Layout>
 )
 
-export default ContactUsPage
+export default CandidatePage
