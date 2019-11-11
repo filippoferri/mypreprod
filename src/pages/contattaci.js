@@ -29,6 +29,12 @@ const ContactUsPage = () => (
         </Row>
         <Row className="justify-content-md-center">
           <Col xs lg="6">
+
+            Qui va l'iframe
+
+            <iframe src="/forms/index.html" title="test" style={{width:'800px',height:'600px'}}></iframe>
+
+
             <Form id="contactus" method="post" name="contactus">
               <Form.Group controlId="formGroupName">
                 <Form.Label>Nome</Form.Label>
