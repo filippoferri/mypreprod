@@ -65,7 +65,7 @@ const JavaDeveloperJuniorPage = () => (
         </Row>
         <Row className="justify-content-center">
           <Col lg={6} className="mb-2 mb-lg-5 text-center">
-            <Link to="/" className="btn btn-primary ml-3">
+            <Link to="/candidatura" className="btn btn-primary ml-3">
               Candidati ora
             </Link>
           </Col>
@@ -78,7 +78,7 @@ const JavaDeveloperJuniorPage = () => (
         <Row>
           <Col><h3 className="h2 text-white">Il tuo profilo non corrisponde?</h3></Col>
           <Col className="text-right">
-            <Link to="/" className="btn btn-outline-white">
+            <Link to="/candidatura" className="btn btn-outline-white">
               Invia candidatura libera
             </Link>
           </Col>

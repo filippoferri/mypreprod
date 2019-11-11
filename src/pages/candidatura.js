@@ -3,7 +3,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-//import Hero from "../images/hero.jpg"
 import { Container, Row, Col, Jumbotron, Form, Button, Image } from "react-bootstrap"
 
 var __html = require("../modules/form-script.js")

@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Hero from "../images/hero.jpg"
 import { Container, Row, Col, Jumbotron } from "react-bootstrap"
 
-const PrivacyPage = () => (
+const PrivacyCandidatePage = () => (
   <Layout pageInfo={{ pageName: "informativa-candidati" }}>
     <SEO title="Informativa candidati"/>
     <Jumbotron fluid className="is-h-400 d-flex align-items-center">
@@ -165,7 +165,7 @@ const PrivacyPage = () => (
       </Container>
     </section>
 
-    </Layout>
-      )
+  </Layout>
+)
 
-      export default PrivacyPage
+export default PrivacyCandidatePage

@@ -81,24 +81,28 @@ const IndexPage = () => (
         <Row>
           <Col xs={12} lg="3" className="mb-2 mb-lg-0">
             <div className="is-box is-white text-center">
+              <Link to="/soluzioni/#gestionali"/>
               <img src={Solutions} alt="Soluzioni Gestionali per TO e Agenzie" />
               <span className="box-title">Soluzioni Gestionali per Tour Operator e Agenzie di Viaggi</span>
             </div>
           </Col>
           <Col xs={12} lg="3" className="mb-2 mb-lg-0">
             <div className="is-box is-white text-center">
+              <Link to="/soluzioni/#portali"/>
               <img src={Improving} alt="Sviluppo portali B2C e/o B2B" />
               <span className="box-title">Sviluppo portali <br/>B2C - B2B - <br/>B2B2C (White Label)</span>
             </div>
           </Col>
           <Col xs={12} lg="3" className="mb-2 mb-lg-0">
             <div className="is-box is-white text-center">
+              <Link to="/soluzioni/#integrazioni"/>
               <img src={Networking} alt="Integrazioni prodotti da provider" />
               <span className="box-title">Integrazione prodotti da provider</span>
             </div>
           </Col>
           <Col xs={12} lg="3">
             <div className="is-box is-white text-center">
+              <Link to="/soluzioni/#xml"/>
               <img src={Browser} alt="Distribuzione Prodotto XML" />
               <span className="box-title">Progettazione e sviluppo per distribuzione prodotto via XML</span>
             </div>

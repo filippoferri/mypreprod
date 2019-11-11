@@ -23,8 +23,6 @@ import TommasoMarchionni from "../images/team/tommaso-marchionni.jpg"
 import DarioBergamini from "../images/team/dario-bergamini.jpg"
 import AndreaDAngelo from "../images/team/andrea-d-angelo.jpg"
 import AlessandroDomeniconi from "../images/team/alessandro-domeniconi.jpg"
-//import { Link } from "gatsby"
-
 
 const AboutUsPage = () => (
   <Layout pageInfo={{ pageName: "chi-siamo" }}>

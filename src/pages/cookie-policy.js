@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Hero from "../images/hero.jpg"
 import { Container, Row, Col, Jumbotron } from "react-bootstrap"
 
-const BlogPostPage = () => (
+const CookiePolicy = () => (
   <Layout pageInfo={{ pageName: "blog-post" }}>
     <SEO title="Cookie Policy"/>
     <Jumbotron fluid className="is-h-400 d-flex align-items-center">
@@ -206,4 +206,4 @@ const BlogPostPage = () => (
   </Layout>
 )
 
-export default BlogPostPage
+export default CookiePolicy

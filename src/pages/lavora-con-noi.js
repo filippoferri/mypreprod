@@ -87,7 +87,7 @@ const CareerPage = () => (
         <Row>
           <Col><h3 className="h2 text-white">Il tuo profilo non corrisponde?</h3></Col>
           <Col className="text-right">
-            <Link to="/" className="btn btn-outline-white">
+            <Link to="/candidatura" className="btn btn-outline-white">
               Invia candidatura libera
             </Link>
           </Col>

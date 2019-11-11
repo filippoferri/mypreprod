@@ -40,7 +40,7 @@ const SolutionsPage = () => (
       </Container>
     </section>
 
-    <section className="padding-top-huge padding-bottom-huge has-background-light">
+    <section id="gestionali" className="padding-top-huge padding-bottom-huge has-background-light">
       <Container>
         <Row className="align-items-center">
           <Col xs={4} md={{ span: 3 }} className="mb-4 mb-lg-0">
@@ -73,7 +73,7 @@ const SolutionsPage = () => (
       </Container>
     </section>
 
-    <section className="padding-top-huge padding-bottom-small has-background-light">
+    <section id="integrazioni" className="padding-top-huge padding-bottom-small has-background-light">
       <Container>
         <Row className="align-items-center">
           <Col xs={{order: 2, span: 12}} md={{ span: 8, order: 1 }}>
@@ -90,7 +90,7 @@ const SolutionsPage = () => (
       </Container>
     </section>
 
-    <section className="padding-bottom-huge has-background-light">
+    <section id="xml" className="padding-bottom-huge has-background-light">
       <Container>
         <Row className="align-items-center">
           <Col xs={4} md={{ span: 3 }} className="mb-4 mb-lg-0">
@@ -105,7 +105,7 @@ const SolutionsPage = () => (
       </Container>
     </section>
 
-    <section className="padding-bottom-small has-background-light">
+    <section id="portali" className="padding-bottom-small has-background-light">
       <Container>
         <Row className="align-items-center">
           <Col xs={{span: 12, order: 2}} md={{ span: 8, order: 1 }}>
