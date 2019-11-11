@@ -1,9 +1,7 @@
 import React from "react"
-//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-//import Hero from "../images/hero.jpg"
 import { Container, Row, Col, Jumbotron, Form, Button, Image } from "react-bootstrap"
 
 var __html = require("../modules/form-script.js")
@@ -26,8 +24,8 @@ const ContactUsPage = () => (
         <Row className="justify-content-md-center">
           <Col xs lg="6">
               <p dangerouslySetInnerHTML={template}/>
-            <p>Vorresti chiedere un preventivo o prendere un appuntamento?<br/>
-              Siamo lieti di rispondere.</p>
+            <h3 className="h4 mb-4">Vorresti chiedere un preventivo o prendere un appuntamento?<br/>
+              Siamo lieti di rispondere.</h3>
           </Col>
         </Row>
         <Row className="justify-content-md-center">
