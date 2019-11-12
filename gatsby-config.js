@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/gatsby-react-bootstrap-starter",
   siteMetadata: {
     title: `Wavecode`,
-    description: `Software House per il mondo Travel`,
+    description: `Sviluppo di applicazioni gestionali e soluzioni per il mondo Travel`,
     author: `Wavecode`,
   },
   plugins: [

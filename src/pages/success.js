@@ -15,7 +15,7 @@ const SuccessPage = () => (
       <div className="is-bg-section" style={{ backgroundImage: `url(${Hero})` }}></div>
 
       <Container style={{ zIndex: "2" }}>
-        <h1 className="text-center mt-5">Email inviata!</h1>
+        <h1 className="text-center mt-5">Eureka!</h1>
       </Container>
     </Jumbotron>
 
@@ -26,7 +26,7 @@ const SuccessPage = () => (
 
             <h2 className="mb-4">La email è stata inviata con successo!</h2>
             <Link to="/" className="btn btn-primary">
-              Home page
+              Torna in Home Page
             </Link>
           </Col>
         </Row>

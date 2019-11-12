@@ -15,7 +15,7 @@ const ErrorPage = () => (
       <div className="is-bg-section" style={{ backgroundImage: `url(${Hero})` }}></div>
 
       <Container style={{ zIndex: "2" }}>
-        <h1 className="text-center mt-5">Si è verificato un errore!</h1>
+        <h1 className="text-center mt-5">Attenzione!</h1>
       </Container>
     </Jumbotron>
 
@@ -24,7 +24,8 @@ const ErrorPage = () => (
         <Row>
           <Col className="text-center">
 
-            <h2 className="mb-4">Ti preghiamo di riprovare</h2>
+            <h2 className="mb-4">Si è verificato un errore!</h2>
+            <p className="mb-4">Ti preghiamo di riprovare</p>
             <Link to="/contatti" className="btn btn-primary">
               Torna alla pagina contatti
             </Link>

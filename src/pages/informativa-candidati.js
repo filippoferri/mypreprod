@@ -95,7 +95,7 @@ const PrivacyCandidatePage = () => (
 
             <p>Inoltre i dati potranno essere comunicati ad altre Società del Gruppo Wave, per la partecipazione a
               selezioni. Le Società che fanno parte del Gruppo Wave sono identificate nel sito <a
-                href="https://www.wavecode.it" target="_blank">ww.wavecode.it</a>.</p>
+                href="https://www.wavecode.it" target="_blank" rel="noopener noreferrer">ww.wavecode.it</a>.</p>
 
             <p>I Suoi dati personali potranno essere trattati da soggetti terzi, di cui la Società si avvale ai fini
               della valutazione e della selezione dei candidati.</p>
