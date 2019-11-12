@@ -8,7 +8,7 @@ import Hero from "../images/hero.jpg"
 
 const ErrorPage = () => (
   <Layout>
-    <SEO title="404: Not found"/>
+    <SEO title="Attenzione! Si è verificato un errore!"/>
 
     <Jumbotron fluid className="is-h-400 d-flex align-items-center">
 

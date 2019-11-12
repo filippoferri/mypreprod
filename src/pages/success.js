@@ -8,7 +8,7 @@ import Hero from "../images/hero.jpg"
 
 const SuccessPage = () => (
   <Layout>
-    <SEO title="404: Not found"/>
+    <SEO title="Eureka! La email è stata inviata con successo!"/>
 
     <Jumbotron fluid className="is-h-400 d-flex align-items-center">
 
