@@ -4,16 +4,32 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Col, Jumbotron, Form, Button, Image } from "react-bootstrap"
 
+import Sand from "../images/jpg/sand.jpg"
+
 var __html = require("../modules/form-script.js")
 var template = { __html: __html }
 
+function  getCaptcha(){
+  var img = document.getElementById('captcha');
+
+  if (img) {
+    img.src = '/api/captcha?' + new Date().getTime();
+    if (img.onclick == null) {
+      img.onclick = function () {
+        getCaptcha();
+      }
+    }
+  }
+}
+
 const ContactUsPage = () => (
+
   <Layout pageInfo={{ pageName: "contattaci" }}>
     <SEO title="Contattaci"/>
     <Jumbotron fluid className="is-h-400 d-flex align-items-center">
 
       <div className="is-bg-section"
-           style={{ backgroundImage: `url(https://source.unsplash.com/5brvJbR1Pn8/20000x1000)` }}></div>
+           style={{ backgroundImage: `url(${Sand})` }}></div>
 
       <Container style={{ zIndex: "2" }}>
         <h1 className="text-center mt-5">Contattaci</h1>
@@ -23,7 +39,7 @@ const ContactUsPage = () => (
       <Container>
         <Row className="justify-content-md-center">
           <Col xs lg="6">
-              <p dangerouslySetInnerHTML={template}/>
+              <p onLoad={getCaptcha()} dangerouslySetInnerHTML={template}/>
             <h3 className="h4 mb-4">Vorresti chiedere un preventivo<br/> o prendere un appuntamento?<br/>
               Siamo lieti di rispondere.</h3>
           </Col>
@@ -34,11 +50,11 @@ const ContactUsPage = () => (
             <Form id="contactus" method="post" name="contactus">
               <Form.Group controlId="formGroupName">
                 <Form.Label>Nome</Form.Label>
-                <Form.Control name="firstname"/>
+                <Form.Control name="firstName"/>
               </Form.Group>
               <Form.Group controlId="formGroupSurname">
                 <Form.Label>Cognome</Form.Label>
-                <Form.Control name="lastname"/>
+                <Form.Control name="lastName"/>
               </Form.Group>
               <Form.Group controlId="formGroupEmail">
                 <Form.Label>Email</Form.Label>

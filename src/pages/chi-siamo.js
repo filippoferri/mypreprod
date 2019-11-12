@@ -24,12 +24,15 @@ import DarioBergamini from "../images/team/dario-bergamini.jpg"
 import AndreaDAngelo from "../images/team/andrea-d-angelo.jpg"
 import AlessandroDomeniconi from "../images/team/alessandro-domeniconi.jpg"
 
+import Beach from "../images/jpg/beach.jpg"
+import Working from "../images/jpg/working.jpg"
+
 const AboutUsPage = () => (
   <Layout pageInfo={{ pageName: "chi-siamo" }}>
     <SEO title="Chi siamo"/>
     <Jumbotron fluid className="is-h-400 d-flex align-items-center">
 
-      <div className="is-bg-section" style={{ backgroundImage: `url(https://source.unsplash.com/m3PYWZvKvoQ/20000x1000})` }}></div>
+      <div className="is-bg-section" style={{ backgroundImage: `url(${Beach})` }}></div>
 
       <Container style={{ zIndex: "2" }}>
         <h1 className="text-center text-white mt-5">Chi siamo</h1>
@@ -60,7 +63,7 @@ const AboutUsPage = () => (
           </Col>
           <Col lg={{span: 6, offset: 1}}>
             <div>
-              <Image className="mb-4" src="https://source.unsplash.com/SYTO3xs06fU/1600x500" alt="title" fluid/>
+              <Image className="mb-4" src={Working} alt="title" fluid/>
               <p className="mb-4">Wavecode si è posta come sfida la semplificazione delle numerose attività che svolgono agenti di viaggio e operatori di sistema, andando incontro alle esigenze e problematiche che ogni Agenzia di Viaggi o Tour Operator affronta e vive ogni giorno.</p>
             </div>
           </Col>

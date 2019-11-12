@@ -11,6 +11,9 @@ import CRM from "../images/crm.svg"
 import B2B from "../images/b2b.svg"
 import XML from "../images/xml.svg"
 import Device from "../images/device-right.png"
+import Wing from "../images/jpg/wing.jpg"
+import Team from "../images/jpg/team.jpg"
+
 
 const SolutionsPage = () => (
   <Layout pageInfo={{ pageName: "soluzioni" }}>
@@ -18,7 +21,7 @@ const SolutionsPage = () => (
 
     <Jumbotron fluid className="is-h-400 d-flex align-items-center">
 
-      <div className="is-bg-section" style={{ backgroundImage: `url(https://source.unsplash.com/rf6ywHVkrlY/20000x1000)` }}></div>
+      <div className="is-bg-section" style={{ backgroundImage: `url(${Wing})` }}></div>
 
       <Container style={{ zIndex: "2" }}>
         <h1 className="text-center mt-5">Soluzioni</h1>
@@ -144,7 +147,7 @@ const SolutionsPage = () => (
         </Row>
         <Row className="justify-content-md-center text-center">
           <Col>
-            <Image src="https://source.unsplash.com/5fNmWej4tAA/1200x800" alt="huge" fluid/>
+            <Image src={Team} alt="huge" fluid/>
           </Col>
         </Row>
       </Container>

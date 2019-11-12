@@ -16,6 +16,7 @@ import World from "../images/world.svg"
 
 import Abstract from "../images/abstract.png"
 import Hero from "../images/hero.jpg"
+import Mission from "../images/jpg/mission.jpg"
 
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "index" }}>
@@ -148,7 +149,7 @@ const IndexPage = () => (
       <Container>
         <Row className="align-items-center">
           <Col md={{span: 4}} lg={6}>
-            <Image className="mb-4 mb-lg-0" fluid src="https://source.unsplash.com/IuLgi9PWETU/1200x1000" alt="La nostra missione"/>
+            <Image className="mb-4 mb-lg-0" fluid src={Mission} alt="La nostra missione"/>
           </Col>
           <Col md={8} lg={{ span: 5, offset: 1 }}>
             <h3 className="mb-4">La nostra missione</h3>

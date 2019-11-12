@@ -9,6 +9,7 @@ import Security from "../images/jpg/security.jpg"
 import Microservices from "../images/jpg/microservices.jpg"
 import Data from "../images/jpg/data.jpg"
 import LifeCycle from "../images/jpg/utiliqo-lifecycle.jpg"
+import Laptop from "../images/jpg/laptop.jpg"
 import Dashboard from "../images/jpg/dashboard.png"
 import Charts from "../images/jpg/charts.png"
 
@@ -208,7 +209,7 @@ const UtiliqoTOPage = () => (
       <Container>
         <Row className="align-items-center">
           <Col md={{ span: 4 }} lg={6}>
-            <Image className="mb-4 mb-lg-0" fluid src="https://source.unsplash.com/5p_7M5MP2Iw/1200x1000"
+            <Image className="mb-4 mb-lg-0" fluid src={Laptop}
                    alt="La nostra missione"/>
           </Col>
           <Col md={8} lg={{ span: 5, offset: 1 }}>

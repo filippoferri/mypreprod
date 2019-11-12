@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Col, Jumbotron, Form, Button, Image } from "react-bootstrap"
 
+import Table from "../images/jpg/table.jpg"
+
 var __html = require("../modules/form-script.js")
 var template = { __html: __html }
 
@@ -14,7 +16,7 @@ const CandidatePage = () => (
     <Jumbotron fluid className="is-h-400 d-flex align-items-center">
 
       <div className="is-bg-section"
-           style={{ backgroundImage: `url(https://source.unsplash.com/SYTO3xs06fU/20000x1000)` }}></div>
+           style={{ backgroundImage: `url(${Table})` }}></div>
 
       <Container style={{ zIndex: "2" }}>
         <h1 className="text-center mt-5 text-white">Candidatura</h1>
@@ -34,11 +36,11 @@ const CandidatePage = () => (
             <Form id="candidacy" method="post" encType="multipart/form-data">
               <Form.Group controlId="formGroupName">
                 <Form.Label>Nome</Form.Label>
-                <Form.Control name="firstname" required/>
+                <Form.Control name="firstName" required/>
               </Form.Group>
               <Form.Group controlId="formGroupSurname">
                 <Form.Label>Cognome</Form.Label>
-                <Form.Control name="lastname" required/>
+                <Form.Control name="lastName" required/>
               </Form.Group>
               <Form.Group controlId="formGroupEmail">
                 <Form.Label>Email</Form.Label>
