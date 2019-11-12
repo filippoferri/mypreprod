@@ -68,7 +68,7 @@ const SolutionsPage = () => (
         <Row>
           <Col xs={12} md={8} className="mb-4 mb-lg-0"><h3 className="h2 text-white">Vuoi integrare Utiliqo con il tuo CRM?</h3></Col>
           <Col xs={12} md={4} className="text-lg-right">
-            <Link to="/" className="btn btn-outline-white">
+            <Link to="/contattaci" className="btn btn-outline-white">
               Contattaci
             </Link>
           </Col>
