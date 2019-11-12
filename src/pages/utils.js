@@ -34,6 +34,7 @@ const ContactUsPage = () => (
                 action
                 href="https://getbootstrap.com"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Bootstrap
               </ListGroup.Item>
@@ -41,6 +42,7 @@ const ContactUsPage = () => (
                 action
                 href="https://react-bootstrap.github.io/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 react-bootstrap
               </ListGroup.Item>
@@ -48,6 +50,7 @@ const ContactUsPage = () => (
                 action
                 href="https://react-icons.netlify.com"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 react-icons
               </ListGroup.Item>
@@ -55,6 +58,7 @@ const ContactUsPage = () => (
                 action
                 href="https://www.gatsbyjs.org/packages/gatsby-plugin-sass/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 gatsby-plugin-sass
               </ListGroup.Item>

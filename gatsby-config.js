@@ -29,6 +29,26 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-iubenda-cookie-footer',
+      options: {
+        iubendaOptions: {
+          "lang": "it",
+          "siteId": "1632287",
+          "cookiePolicyInOtherWindow": true,
+          "cookiePolicyId": "17873218",
+          "cookiePolicyUrl": "https://www.wavecode.it/cookie-policy",
+          "banner": {
+            "acceptButtonDisplay": true,
+            "acceptButtonColor": "#17E72C",
+            "acceptButtonCaptionColor": "white",
+            "position": "float-bottom-center",
+            "textColor": "black",
+            "backgroundColor": "white"
+          },
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-react-bootstrap`,

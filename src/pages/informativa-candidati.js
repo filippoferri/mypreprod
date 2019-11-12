@@ -36,7 +36,7 @@ const PrivacyCandidatePage = () => (
             <p>Titolare del trattamento è Wave SRL, con sede in Via degli Abeti 24, 61122 - Pesaro (PU), rappresentata
               dal Legale Rappresentante. Il Responsabile del trattamento è il Direttore delle Risorse Umane. Il Titolare
               ed il Responsabile del trattamento potranno essere contattati via email all’indirizzo
-              <a href="support@wavecode.it" target="_blank">support@wavecode.it</a>.</p>
+              <a href="mailto:support@wavecode.it" target="_blank" rel="noopener noreferrer" >support@wavecode.it</a>.</p>
 
             <h3>2. Finalità del trattamento</h3>
             <p>I suoi dati personali, liberamente comunicati e da noi acquisiti in ragione del rapporto di lavoro

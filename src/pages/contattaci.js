@@ -24,7 +24,7 @@ const ContactUsPage = () => (
         <Row className="justify-content-md-center">
           <Col xs lg="6">
               <p dangerouslySetInnerHTML={template}/>
-            <h3 className="h4 mb-4">Vorresti chiedere un preventivo o prendere un appuntamento?<br/>
+            <h3 className="h4 mb-4">Vorresti chiedere un preventivo<br/> o prendere un appuntamento?<br/>
               Siamo lieti di rispondere.</h3>
           </Col>
         </Row>
