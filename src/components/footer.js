@@ -22,13 +22,12 @@ const Footer = () => (
             <ListGroup variant="flush">
               <ListGroup.Item><Link to={"/chi-siamo"}>Chi siamo</Link></ListGroup.Item>
               <ListGroup.Item><Link to={"/soluzioni"}>Soluzioni</Link></ListGroup.Item>
-              <ListGroup.Item><Link to={"/prodotti"}>Prodotti</Link></ListGroup.Item>
               <ListGroup.Item><Link to={"/lavora-con-noi"}>Lavora con noi</Link></ListGroup.Item>
               <ListGroup.Item><Link to={"/contattaci"}>Contattaci</Link></ListGroup.Item>
               <ListGroup.Item> <Link to={"/informativa-privacy"}>Informativa della Privacy</Link></ListGroup.Item>
               <ListGroup.Item> <Link to={"/cookie-policy"}>Cookie Policy</Link></ListGroup.Item>
             </ListGroup>
-            
+
           </Col>
         </Row>
       </Container>
